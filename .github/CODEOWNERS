@@ -1,0 +1,6 @@
+# All files require review from P0 Security team
+* @p0-security/all-devs
+
+# GitHub workflows and Docker images also need review from Ops Devs
+/.github/ @p0-security/ops-devs
+Dockerfile @p0-security/ops-devs
