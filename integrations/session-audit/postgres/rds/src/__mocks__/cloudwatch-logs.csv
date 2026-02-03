@@ -1,0 +1,170 @@
+timestamp,message
+1770218924000,2026-02-04 15:28:44 UTC:[local]:[unknown]@[unknown]:[18696]:LOG:  connection received: host=[local]
+1770218924000,"2026-02-04 15:28:44 UTC:[local]:rdsadmin@rdsadmin:[18696]:LOG:  connection authenticated: identity=""rdsmon"" method=peer (/rdsdbdata/config/pg_hba.conf:2)"
+1770218924000,2026-02-04 15:28:44 UTC:[local]:rdsadmin@rdsadmin:[18696]:LOG:  connection authorized: user=rdsadmin database=rdsadmin
+1770218953000,2026-02-04 15:29:13 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770218954000,"2026-02-04 15:29:14 UTC::@:[1338]:LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.207 s, sync=0.004 s, total=0.218 s; sync files=3, longest=0.003 s, average=0.002 s; distance=65536 kB, estimate=65537 kB; lsn=3FE/D8000350, redo lsn=3FE/D8000330"
+1770219253000,2026-02-04 15:34:13 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770219253000,"2026-02-04 15:34:13 UTC::@:[1338]:LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.206 s, sync=0.002 s, total=0.216 s; sync files=3, longest=0.001 s, average=0.001 s; distance=65536 kB, estimate=65537 kB; lsn=3FE/DC000378, redo lsn=3FE/DC000358"
+1770219524000,2026-02-04 15:38:44 UTC:[local]:[unknown]@[unknown]:[19151]:LOG:  connection received: host=[local]
+1770219524000,"2026-02-04 15:38:44 UTC:[local]:rdsadmin@rdsadmin:[19151]:LOG:  connection authenticated: identity=""rdsmon"" method=peer (/rdsdbdata/config/pg_hba.conf:2)"
+1770219524000,2026-02-04 15:38:44 UTC:[local]:rdsadmin@rdsadmin:[19151]:LOG:  connection authorized: user=rdsadmin database=rdsadmin
+1770219553000,2026-02-04 15:39:13 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770219553000,"2026-02-04 15:39:13 UTC::@:[1338]:LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.204 s, sync=0.002 s, total=0.214 s; sync files=3, longest=0.002 s, average=0.001 s; distance=65536 kB, estimate=65537 kB; lsn=3FE/E0000390, redo lsn=3FE/E0000370"
+1770219853000,2026-02-04 15:44:13 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770219853000,"2026-02-04 15:44:13 UTC::@:[1338]:LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.205 s, sync=0.002 s, total=0.217 s; sync files=3, longest=0.001 s, average=0.001 s; distance=65536 kB, estimate=65537 kB; lsn=3FE/E4000390, redo lsn=3FE/E4000370"
+1770220124000,2026-02-04 15:48:44 UTC:[local]:[unknown]@[unknown]:[19613]:LOG:  connection received: host=[local]
+1770220124000,"2026-02-04 15:48:44 UTC:[local]:rdsadmin@rdsadmin:[19613]:LOG:  connection authenticated: identity=""rdsmon"" method=peer (/rdsdbdata/config/pg_hba.conf:2)"
+1770220124000,2026-02-04 15:48:44 UTC:[local]:rdsadmin@rdsadmin:[19613]:LOG:  connection authorized: user=rdsadmin database=rdsadmin
+1770220154000,2026-02-04 15:49:14 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770220154000,"2026-02-04 15:49:14 UTC::@:[1338]:LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.207 s, sync=0.002 s, total=0.220 s; sync files=3, longest=0.001 s, average=0.001 s; distance=65536 kB, estimate=65536 kB; lsn=3FE/E80003B0, redo lsn=3FE/E8000390"
+1770220362000,"2026-02-04 15:52:42 UTC:10.0.89.114(9023):[unknown]@[unknown]:[19792]:LOG:  connection received: host=10.0.89.114 port=9023
+*   Trying 127.0.0.1:1108...
+* Connected to rdsauthproxy (127.0.0.1) port 1108
+> POST /authenticateRequest HTTP/1.1
+Host: rdsauthproxy:1108
+Accept: */*
+Content-Length: 1880
+Content-Type: multipart/form-data; boundary=------------------------5ixE7C3gvqCzRED6L2qARH
+* We are completely uploaded and fine"
+1770220372000,2026-02-04 15:52:52 UTC:10.0.89.114(52917):[unknown]@[unknown]:[19804]:LOG:  connection received: host=10.0.89.114 port=52917
+1770220372000,"*   Trying 127.0.0.1:1108...
+* Connected to rdsauthproxy (127.0.0.1) port 1108
+> POST /authenticateRequest HTTP/1.1
+Host: rdsauthproxy:1108
+Accept: */*
+Content-Length: 1880
+Content-Type: multipart/form-data; boundary=------------------------QqPTS9YshbjXmk7vVdSEZH
+* We are completely uploaded and fine"
+1770220372000,"< HTTP/1.1 200 OK
+< Content-Type: text/html;charset=utf-8
+< HTTP/1.1 200 OK
+< Content-Type: text/html;charset=utf-8
+< < Content-Length: 0
+Content-Length: 0
+< < 
+* Connection #0 to host rdsauthproxy left intact
+* Connection #0 to host rdsauthproxy left intact"
+1770220410000,"2026-02-04 15:53:30 UTC:10.0.89.114(9023):p0accessmanager@test_shop:[19792]:LOG:  connection authenticated: identity=""p0accessmanager"" method=pam (/rdsdbdata/config/pg_hba.conf:13)"
+1770220410000,"2026-02-04 15:53:30 UTC:10.0.89.114(52917):p0accessmanager@test_shop:[19804]:LOG:  connection authenticated: identity=""p0accessmanager"" method=pam (/rdsdbdata/config/pg_hba.conf:13)"
+1770220410000,"2026-02-04 15:53:30 UTC:10.0.89.114(52917):p0accessmanager@test_shop:[19804]:LOG:  connection authorized: user=p0accessmanager database=test_shop SSL enabled (protocol=TLSv1.3, cipher=TLS_AES_256_GCM_SHA384, bits=256)"
+1770220410000,"2026-02-04 15:53:30 UTC:10.0.89.114(9023):p0accessmanager@test_shop:[19792]:LOG:  connection authorized: user=p0accessmanager database=test_shop SSL enabled (protocol=TLSv1.3, cipher=TLS_AES_256_GCM_SHA384, bits=256)"
+1770220410000,2026-02-04 15:53:30 UTC:10.0.89.114(9023):p0accessmanager@test_shop:[19792]:LOG:  could not receive data from client: Connection reset by peer
+1770220410000,2026-02-04 15:53:30 UTC:10.0.89.114(52917):p0accessmanager@test_shop:[19804]:LOG:  could not receive data from client: Connection reset by peer
+1770220410000,2026-02-04 15:53:30 UTC:10.0.89.114(52917):p0accessmanager@test_shop:[19804]:LOG:  disconnection: session time: 0:00:38.027 user=p0accessmanager database=test_shop host=10.0.89.114 port=52917
+1770220410000,2026-02-04 15:53:30 UTC:10.0.89.114(9023):p0accessmanager@test_shop:[19792]:LOG:  disconnection: session time: 0:00:48.507 user=p0accessmanager database=test_shop host=10.0.89.114 port=9023
+1770220454000,2026-02-04 15:54:14 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770220454000,"2026-02-04 15:54:14 UTC::@:[1338]:LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.207 s, sync=0.001 s, total=0.219 s; sync files=3, longest=0.001 s, average=0.001 s; distance=65536 kB, estimate=65536 kB; lsn=3FE/EC0003C0, redo lsn=3FE/EC0003A0"
+1770220724000,2026-02-04 15:58:44 UTC:[local]:[unknown]@[unknown]:[20072]:LOG:  connection received: host=[local]
+1770220724000,"2026-02-04 15:58:44 UTC:[local]:rdsadmin@rdsadmin:[20072]:LOG:  connection authenticated: identity=""rdsmon"" method=peer (/rdsdbdata/config/pg_hba.conf:2)"
+1770220724000,2026-02-04 15:58:44 UTC:[local]:rdsadmin@rdsadmin:[20072]:LOG:  connection authorized: user=rdsadmin database=rdsadmin
+1770220755000,2026-02-04 15:59:15 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770220755000,"2026-02-04 15:59:15 UTC::@:[1338]:LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.209 s, sync=0.002 s, total=0.230 s; sync files=3, longest=0.002 s, average=0.001 s; distance=65536 kB, estimate=65536 kB; lsn=3FE/F00003E8, redo lsn=3FE/F00003C8"
+1770220886000,2026-02-04 16:01:26 UTC:10.0.63.112(59466):[unknown]@[unknown]:[20194]:LOG:  connection received: host=10.0.63.112 port=59466
+1770220886000,"*   Trying 127.0.0.1:1108...
+* Connected to rdsauthproxy (127.0.0.1) port 1108
+> POST /authenticateRequest HTTP/1.1
+Host: rdsauthproxy:1108
+Accept: */*
+Content-Length: 1884
+Content-Type: multipart/form-data; boundary=------------------------rUGX9JGlXq0LjxaAZr2wPZ
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 0
+< 
+* Connection #0 to host rdsauthproxy left intact"
+1770220888000,"2026-02-04 16:01:28 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  connection authenticated: identity=""p0accessmanager"" method=pam (/rdsdbdata/config/pg_hba.conf:13)"
+1770220888000,"2026-02-04 16:01:28 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  connection authorized: user=p0accessmanager database=test_shop SSL enabled (protocol=TLSv1.3, cipher=TLS_AES_256_GCM_SHA384, bits=256)"
+1770220888000,"2026-02-04 16:01:28 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  AUDIT: SESSION,1,1,READ,SELECT,,,SELECT rolname FROM pg_roles WHERE NOT rolsuper,<none>"
+1770220996000,"2026-02-04 16:03:16 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  AUDIT: SESSION,2,1,READ,SELECT,,,SELECT rolname FROM pg_roles WHERE NOT rolsuper,<none>"
+1770221032000,"2026-02-04 16:03:52 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  AUDIT: SESSION,3,1,READ,SELECT,,,SELECT * FROM pg_roles WHERE rolname = $1,user@example.com"
+1770221040000,"2026-02-04 16:04:00 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  AUDIT: SESSION,4,1,READ,SELECT,,,SELECT * FROM pg_roles WHERE rolname = $1,user@example.com"
+1770221040000,"2026-02-04 16:04:00 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  AUDIT: SESSION,5,1,READ,SELECT,,,""SELECT p0GrantOrRevokeUserAccess($1, $2, $3)"",""user@example.com,shop_reader_full,grant"""
+1770221040000,"2026-02-04 16:04:00 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  AUDIT: SESSION,5,2,FUNCTION,EXECUTE,FUNCTION,public.p0grantorrevokeuseraccess,""SELECT p0GrantOrRevokeUserAccess($1, $2, $3)"",<none>"
+1770221040000,"2026-02-04 16:04:00 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  AUDIT: SESSION,5,3,ROLE,GRANT ROLE,,,""GRANT shop_reader_full TO """"user@example.com"""""",<none>"
+1770221055000,2026-02-04 16:04:15 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770221056000,"2026-02-04 16:04:16 UTC::@:[1338]:LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.710 s, sync=0.003 s, total=0.736 s; sync files=8, longest=0.002 s, average=0.001 s; distance=65539 kB, estimate=65539 kB; lsn=3FE/F4001120, redo lsn=3FE/F4001100"
+1770221324000,2026-02-04 16:08:44 UTC:[local]:[unknown]@[unknown]:[20531]:LOG:  connection received: host=[local]
+1770221324000,"2026-02-04 16:08:44 UTC:[local]:rdsadmin@rdsadmin:[20531]:LOG:  connection authenticated: identity=""rdsmon"" method=peer (/rdsdbdata/config/pg_hba.conf:2)"
+1770221324000,2026-02-04 16:08:44 UTC:[local]:rdsadmin@rdsadmin:[20531]:LOG:  connection authorized: user=rdsadmin database=rdsadmin
+1770221355000,2026-02-04 16:09:15 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770221355000,"2026-02-04 16:09:15 UTC::@:[1338]:LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.306 s, sync=0.002 s, total=0.321 s; sync files=4, longest=0.002 s, average=0.001 s; distance=65533 kB, estimate=65538 kB; lsn=3FE/F8000860, redo lsn=3FE/F8000840"
+1770221362000,2026-02-04 16:09:22 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  could not receive data from client: Connection reset by peer
+1770221362000,2026-02-04 16:09:22 UTC:10.0.63.112(59466):p0accessmanager@test_shop:[20194]:LOG:  disconnection: session time: 0:07:55.124 user=p0accessmanager database=test_shop host=10.0.63.112 port=59466
+1770221655000,2026-02-04 16:14:15 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770221655000,"2026-02-04 16:14:15 UTC::@:[1338]:LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.206 s, sync=0.002 s, total=0.218 s; sync files=3, longest=0.001 s, average=0.001 s; distance=65534 kB, estimate=65538 kB; lsn=3FE/FC000430, redo lsn=3FE/FC000410"
+1770221924000,2026-02-04 16:18:44 UTC:[local]:[unknown]@[unknown]:[20995]:LOG:  connection received: host=[local]
+1770221924000,"2026-02-04 16:18:44 UTC:[local]:rdsadmin@rdsadmin:[20995]:LOG:  connection authenticated: identity=""rdsmon"" method=peer (/rdsdbdata/config/pg_hba.conf:2)"
+1770221924000,2026-02-04 16:18:44 UTC:[local]:rdsadmin@rdsadmin:[20995]:LOG:  connection authorized: user=rdsadmin database=rdsadmin
+1770221955000,2026-02-04 16:19:15 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770221956000,"2026-02-04 16:19:16 UTC::@:[1338]:LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.206 s, sync=0.002 s, total=0.223 s; sync files=3, longest=0.001 s, average=0.001 s; distance=65536 kB, estimate=65538 kB; lsn=3FF/448, redo lsn=3FF/428"
+1770221965000,"2026-02-04 16:19:25 UTC:10.0.11.127(46010):[unknown]@[unknown]:[21024]:LOG:  connection received: host=10.0.11.127 port=46010
+*   Trying 127.0.0.1:1108...
+* Connected to rdsauthproxy (127.0.0.1) port 1108
+> POST /authenticateRequest HTTP/1.1
+Host: rdsauthproxy:1108
+Accept: */*
+Content-Length: 1858
+Content-Type: multipart/form-data; boundary=------------------------x7Vjo1npO1cgQ0v0LYVt3w
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 0
+< 
+* Connection #0 to host rdsauthproxy left intact"
+1770221966000,"2026-02-04 16:19:26 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  connection authenticated: identity=""user@example.com"" method=pam (/rdsdbdata/config/pg_hba.conf:13)"
+1770221966000,"2026-02-04 16:19:26 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  connection authorized: user=user@example.com database=test_shop application_name=psql SSL enabled (protocol=TLSv1.3, cipher=TLS_AES_256_GCM_SHA384, bits=256)"
+1770221990000,"2026-02-04 16:19:50 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,1,1,READ,SELECT,,,""SELECT r.rolname, r.rolsuper, r.rolinherit,
+	  r.rolcreaterole, r.rolcreatedb, r.rolcanlogin,
+	  r.rolconnlimit, r.rolvaliduntil,
+	  ARRAY(SELECT b.rolname
+	        FROM pg_catalog.pg_auth_members m
+	        JOIN pg_catalog.pg_roles b ON (m.roleid = b.oid)
+	        WHERE m.member = r.oid) as memberof
+	, r.rolreplication
+	, r.rolbypassrls
+	FROM pg_catalog.pg_roles r
+	WHERE r.rolname !~ '^pg_'
+	ORDER BY 1"",<none>"
+1770222058000,"2026-02-04 16:20:58 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,2,1,READ,SELECT,,,""SELECT n.nspname as """"Schema"""",
+	  c.relname as """"Name"""",
+	  CASE c.relkind WHEN 'r' THEN 'table' WHEN 'v' THEN 'view' WHEN 'm' THEN 'materialized view' WHEN 'i' THEN 'index' WHEN 'S' THEN 'sequence' WHEN 't' THEN 'TOAST table' WHEN 'f' THEN 'foreign table' WHEN 'p' THEN 'partitioned table' WHEN 'I' THEN 'partitioned index' END as """"Type"""",
+	  pg_catalog.pg_get_userbyid(c.relowner) as """"Owner""""
+	FROM pg_catalog.pg_class c
+	     LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+	     LEFT JOIN pg_catalog.pg_am am ON am.oid = c.relam
+	WHERE c.relkind IN ('r','p','v','m','S','f','')
+	      AND n.nspname <> 'pg_catalog'
+	      AND n.nspname !~ '^pg_toast'
+	      AND n.nspname <> 'information_schema'
+	  AND pg_catalog.pg_table_is_visible(c.oid)
+	ORDER BY 1,2"",<none>"
+1770222067000,"2026-02-04 16:21:07 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,3,1,READ,SELECT,,,select * from suppliers limit 7,<none>"
+1770222077000,"2026-02-04 16:21:17 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:ERROR:  relation ""orders_items"" does not exist at character 15"
+1770222077000,2026-02-04 16:21:17 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:STATEMENT:  select * from orders_items;
+1770222081000,"2026-02-04 16:21:21 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:ERROR:  relation ""orders_items"" does not exist at character 15"
+1770222081000,2026-02-04 16:21:21 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:STATEMENT:  select * from orders_items;
+1770222087000,"2026-02-04 16:21:27 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,4,1,READ,SELECT,,,select * from order_items,<none>"
+1770222115000,"2026-02-04 16:21:55 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,5,1,READ,SELECT,,,select * from test limit 2,<none>"
+1770222144000,"2026-02-04 16:22:24 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,6,1,READ,SELECT,,,""SELECT column_name, data_type, character_maximum_length, is_nullable, column_default
+	FROM information_schema.columns
+	WHERE table_name = 'test'"",<none>"
+1770222144000,"2026-02-04 16:22:24 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,6,2,FUNCTION,EXECUTE,FUNCTION,information_schema._pg_char_max_length,""SELECT column_name, data_type, character_maximum_length, is_nullable, column_default
+	FROM information_schema.columns
+	WHERE table_name = 'test'"",<none>"
+1770222144000,"2026-02-04 16:22:24 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,6,3,FUNCTION,EXECUTE,FUNCTION,information_schema._pg_truetypid,""SELECT column_name, data_type, character_maximum_length, is_nullable, column_default
+	FROM information_schema.columns
+	WHERE table_name = 'test'"",<none>"
+1770222144000,"2026-02-04 16:22:24 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,6,4,FUNCTION,EXECUTE,FUNCTION,information_schema._pg_truetypmod,""SELECT column_name, data_type, character_maximum_length, is_nullable, column_default
+	FROM information_schema.columns
+	WHERE table_name = 'test'"",<none>"
+1770222144000,"2026-02-04 16:22:24 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,6,5,READ,SELECT,,,,""""""(16659,id,25,-1,1,-1,-1,0,f,i,x,"""""""""""""""",f,f,f,"""""""""""""""","""""""""""""""",f,t,0,100,,,,,)"""",""""(25,text,11,10,-1,f,b,S,t,t,"""""""","""""""",0,-,0,1009,textin,textout,textrecv,textsend,-,-,-,i,x,f,0,-1,0,100,,,)"""""""
+1770222144000,"2026-02-04 16:22:24 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,6,6,READ,SELECT,,,,""""""(16659,id,25,-1,1,-1,-1,0,f,i,x,"""""""""""""""",f,f,f,"""""""""""""""","""""""""""""""",f,t,0,100,,,,,)"""",""""(25,text,11,10,-1,f,b,S,t,t,"""""""","""""""",0,-,0,1009,textin,textout,textrecv,textsend,-,-,-,i,x,f,0,-1,0,100,,,)"""""""
+1770222144000,"2026-02-04 16:22:24 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,6,7,READ,SELECT,,,,""25,-1"""
+1770222159000,"2026-02-04 16:22:39 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:ERROR:  column ""1"" does not exist at character 31"
+1770222159000,"2026-02-04 16:22:39 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:STATEMENT:  insert into test (id) values (""1"");"
+1770222175000,"2026-02-04 16:22:55 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,7,1,WRITE,INSERT,,,insert into test (id) values ('1'),<none>"
+1770222179000,"2026-02-04 16:22:59 UTC:10.0.11.127(46010):user@example.com@test_shop:[21024]:LOG:  AUDIT: SESSION,8,1,READ,SELECT,,,select * from test limit 2,<none>"
+1770222255000,2026-02-04 16:24:15 UTC::@:[1338]:LOG:  checkpoint starting: time
+1770222256000,"2026-02-04 16:24:16 UTC::@:[1338]:LOG:  checkpoint complete: wrote 10 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.911 s, sync=0.002 s, total=0.922 s; sync files=6, longest=0.002 s, average=0.001 s; distance=65548 kB, estimate=65548 kB; lsn=3FF/4003838, redo lsn=3FF/4003818"
