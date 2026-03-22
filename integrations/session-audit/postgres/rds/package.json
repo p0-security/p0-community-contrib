@@ -1,0 +1,37 @@
+{
+  "name": "session-audit-postgres-rds",
+  "version": "0.0.1",
+  "description": "CloudWatch logs auditing for RDS via lambda invocation",
+  "author": "P0 Security",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "just-bundle": "node ./esbuild.mjs",
+    "clean": "rm -rf dist",
+    "bundle": "yarn clean && yarn just-bundle && yarn zip-lambda",
+    "zip-lambda": "cd dist && zip -r index.zip *.mjs* && du -sh index.zip",
+    "build": "yarn typecheck",
+    "build-within-docker": "yarn typecheck && yarn clean && yarn just-bundle",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.975.0",
+    "csv-parse": "^6.1.0",
+    "lodash": "^4.17.23",
+    "pino": "^9.14.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/aws-lambda": "^8.10.160",
+    "@types/lodash": "^4.17.23",
+    "@types/node": "^22.10.5",
+    "esbuild": "^0.27.2",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.2",
+    "vitest": "^2.1.8"
+  }
+}
