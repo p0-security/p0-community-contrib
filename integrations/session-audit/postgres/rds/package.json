@@ -29,9 +29,9 @@
     "@types/aws-lambda": "^8.10.160",
     "@types/lodash": "^4.17.23",
     "@types/node": "^22.10.5",
-    "esbuild": "^0.27.3",
+    "esbuild": "^0.27.4",
     "prettier": "^3.8.1",
     "typescript": "^5.9.2",
-    "vitest": "^2.1.8"
+    "vitest": "^4.1.4"
   }
 }
